@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Rubik:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Aladin", sans-serif;
+  color: #555;
+  text-align: center;
+  font-weight: 500;
+}
+h1 {
+  padding: 40px 0px 20px 0px;
+  color: #087f5b;
+}
+.table {
+  width: 80vw;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: solid #087f5b;
+}
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 14px 10px;
+  border-right: solid 0.1px #087f5b;
+  border-bottom: solid 0.1px #087f5b;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+thead th {
+  background-color: #087f5b;
+  color: #fff;
+  border-right: solid 0.1px #fff;
+}
+thead th:last-child {
+  border-right: none;
+}
